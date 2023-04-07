@@ -19,6 +19,7 @@
 		"typescript": "3.5.3"
 	},
 	"scripts": {
-		"build": "ts-node scripts/compile.ts"
+		"build": "ts-node scripts/compile.ts",
+    "prepare": "npm run build"
 	}
 }
